@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { FaUserPlus, FaEdit, FaTrashAlt } from "react-icons/fa";
-import ErrorPopup from "../components/ErrorPopup";
-import Navbar from "../components/Navbar";
-import Sidebar from "../components/Sidebar";
 import Layout from "../hoc/Layout";
 
 const fallbackUsers = [
